@@ -46,7 +46,7 @@ const App = () => {
             {/* Modal Heading */}
             <h1 className='centerChild gap-x-3 text-3xl font-semibold text-gray-800'>Book your trip Around the
               <div className='relative globeWrapper'>
-                <div className='globe'></div>
+                <div className='globe' style={{ backgroundImage: "url(earth.jpg)" }}></div>
                 <img src="/plane.png" alt="Plane Icon" className={`absolute right-52 top-1/2 -translate-y-1/2 scale-200 opacity-40  ${showModal && "!-right-2 !scale-100 transition-all delay-500 duration-500 opacity-100"}`} />
               </div>
             </h1>
